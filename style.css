@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+    
+}
+
+#button-block {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button {
+    background-color: red;
+}

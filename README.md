@@ -1,0 +1,1 @@
+This is a rework of the rock-paper-scissors game using the DOM manipulation with Javascript.
