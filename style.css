@@ -3,21 +3,55 @@
     padding: 0;
 }
 
-main {
+body {
     background-color: aquamarine;
+}
+main {
+    background-color: azure;
     display:flex;
     justify-content: center;
     align-content: center;
+    flex-wrap:  wrap;
     height: 100vh;
+}
 
-    
+
+#scoreboard {
+    display:flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content:center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+   
+#hyphen {
+       padding-left: 5%;
+       padding-right: 5%; 
+       font-size: 300%;
+}
+   
+#playerScore, #computerScore {
+       font-size: 250%;
+}
+
+#victory {
+    margin-bottom: 2%;
 }
 
 #button-block {
     margin-top: auto;
     margin-bottom: auto;
+    display:flex;
+    justify-content: center;
+    flex-basis: 100%;
 }
 
-.button {
-    background-color: red;
+#paper {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#results {
+    margin-top: 2%;
 }
