@@ -5,6 +5,7 @@
 
 body {
     background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif
 }
 main {
     background-color: azure;
@@ -15,6 +16,9 @@ main {
     height: 100vh;
 }
 
+#header {
+    margin-bottom: 3%;
+}
 
 #scoreboard {
     display:flex;
@@ -23,6 +27,7 @@ main {
     justify-content:center;
     margin-left: 5%;
     margin-bottom: 2%;
+    font-weight: bold;
 }
    
 #hyphen {
