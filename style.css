@@ -52,6 +52,10 @@ main {
     flex-basis: 100%;
 }
 
+.button {
+    padding: 3% 3% 3% 3%;
+}
+
 #paper {
     margin-left: 2%;
     margin-right: 2%;
